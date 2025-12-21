@@ -30,7 +30,7 @@ Demonstrar:
 ## 📸 INTERFACE OPERACIONAL
 
 <div align="center">
-  <img src="assets/ghost_mobile.png" alt="Ghost Protocol Mobile Interface" width="100%">
+  <img src="ghost_mobile.png" alt="Ghost Protocol Mobile Interface" width="100%">
   <br>
   <sub>*Execução controlada em ambiente mobile tático (Termux + Kali Linux)*</sub>
 </div>
