@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ghost Protocol - Operations</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
+
+:root {
+    --neon-cyan: #00ffff;
+    --neon-yellow: #ffee00;
+    --neon-red: #ff003c;
+    --dark-bg: #0b0c17;
+    --card-bg: #141728;
+    --text-color: #e0e0e0;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background-color: var(--dark-bg);
+    background-image: radial-gradient(circle at 50% 0%, #1a1c2b 0%, #0b0c17 100%);
+    color: var(--text-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HERO */
+.hero-section {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to bottom, #000000, #0b0c17);
+    border-bottom: 2px solid var(--neon-yellow);
+    padding: 20px 0 40px;
+    overflow: hidden;
+}
+
+.hero-bg-grid {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image:
+        linear-gradient(rgba(0,255,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,255,255,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    z-index: 0;
+}
+
+.logo-container {
+    max-width: 800px;
+    padding: 0 12px;
+    margin: auto;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img {
+    width: 100%;
+    border-radius: 12px;
+    border: 2px solid var(--neon-yellow);
+    box-shadow: 0 0 40px rgba(255,238,0,0.25);
+}
+
+.hero-text-group {
+    text-align: center;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+.hero-subtitle {
+    font-size: 15px;
+    color: var(--neon-cyan);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* GRID */
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+    max-width: 1000px;
+    width: 100%;
+    padding: 40px 20px;
+}
+
+.card {
+    background: linear-gradient(145deg, #181b2e, #0f111a);
+    border-radius: 14px;
+    padding: 28px 22px;
+    border: 1px solid rgba(255,255,255,0.06);
+    display: flex;
+    flex-direction: column;
+    transition: 0.4s;
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 35px rgba(0,0,0,0.55);
+}
+
+.card.recon { border-top: 4px solid var(--neon-cyan); }
+.card.hunter { border-top: 4px solid #00ff6a; }
+.card.redteam { border-top: 4px solid var(--neon-red); }
+.card.warfare {
+    border-top: 4px solid var(--neon-yellow);
+    background: linear-gradient(145deg, #1f2235, #0b0c14);
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.card-mode {
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+    opacity: 0.7;
+    color: var(--neon-cyan);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.card-features {
+    list-style: none;
+    font-size: 13px;
+    line-height: 1.5;
+    flex-grow: 1;
+    color: #ccc;
+    text-align: left;
+}
+
+.card-features li {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.card-features li::before {
+    content: "▹";
+    margin-right: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.recon li::before { color: var(--neon-cyan); }
+.hunter li::before { color: #00ff6a; }
+.redteam li::before { color: var(--neon-red); }
+.warfare li::before { color: var(--neon-yellow); }
+
+.card-button {
+    margin-top: 25px;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: 1px solid rgba(255,255,255,0.25);
+    color: #fff;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.recon .card-button:hover { background: var(--neon-cyan); color:#000; box-shadow: 0 0 15px var(--neon-cyan); border-color: var(--neon-cyan); }
+.hunter .card-button:hover { background: #00ff6a; color:#000; box-shadow: 0 0 15px #00ff6a; border-color: #00ff6a; }
+.redteam .card-button:hover { background: var(--neon-red); color:#000; box-shadow: 0 0 15px var(--neon-red); border-color: var(--neon-red); }
+.warfare .card-button {
+    background: var(--neon-yellow);
+    color:#000;
+    border-color: var(--neon-yellow);
+}
+.warfare .card-button:hover {
+    background: #fff;
+    box-shadow: 0 0 25px var(--neon-yellow);
+}
+
+footer {
+    padding: 30px;
+    font-size: 11px;
+    opacity: 0.5;
+    margin-top: auto;
+    border-top: 1px solid #1c1f32;
+    width: 100%;
+    text-align: center;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .cards-container { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero-section">
+    <div class="hero-bg-grid"></div>
+    <div class="logo-container">
+        <img src="logo.jpg" class="logo-img" alt="Ghost Protocol">
+    </div>
+    <div class="hero-text-group">
+        <div class="hero-subtitle">Offensive Security Operations</div>
+    </div>
+</div>
+
+<div class="cards-container">
+
+<div class="card recon">
+    <div class="card-title">Ghost Recon</div>
+    <div class="card-mode">Inteligência & Superfície de Ataque</div>
+    <ul class="card-features">
+        <li>Mapeamento passivo de infraestrutura exposta e ativos esquecidos.</li>
+        <li>Detecção de vazamentos de credenciais e segredos em fontes abertas.</li>
+        <li>Análise estratégica da Superfície de Ataque.</li>
+        <li>Zero impacto operacional (100% stealth).</li>
+    </ul>
+    <a href="https://wa.me/5534991213363?text=Tenho%20interesse%20no%20GHOST%20RECON." class="card-button" target="_blank">Consultar</a>
+</div>
+
+<div class="card hunter">
+    <div class="card-title">Ghost Hunter</div>
+    <div class="card-mode">Vulnerability Assessment</div>
+    <ul class="card-features">
+        <li>Varredura ativa de vulnerabilidades com validação técnica.</li>
+        <li>Análise aprofundada de falhas Web & Cloud.</li>
+        <li>Redução agressiva de falsos positivos.</li>
+        <li>Entrega focada em risco real e correção.</li>
+    </ul>
+    <a href="https://wa.me/5534991213363?text=Tenho%20interesse%20no%20GHOST%20HUNTER." class="card-button" target="_blank">Consultar</a>
+</div>
+
+<div class="card redteam">
+    <div class="card-title">Ghost Red Team</div>
+    <div class="card-mode">Exploitation & APT Simulation</div>
+    <ul class="card-features">
+        <li>Simulação de adversário real com mentalidade ofensiva (APT).</li>
+        <li>Exploração profunda: RCE, SQLi, Auth Bypass.</li>
+        <li>Exfiltração controlada para prova de impacto.</li>
+        <li>Operação formal com regras e escopo definidos.</li>
+    </ul>
+    <a href="https://wa.me/5534991213363?text=Quero%20solicitar%20acesso%20ao%20RED%20TEAM." class="card-button" target="_blank">Solicitar Acesso</a>
+</div>
+
+<div class="card warfare">
+    <div class="card-title">Ghost Warfare</div>
+    <div class="card-mode">Full Killchain & Retainer</div>
+    <ul class="card-features">
+        <li>Ciclo completo: Recon ➔ Exploit ➔ Impact ➔ Report.</li>
+        <li>Operação contínua sob contrato (Retainer).</li>
+        <li>Monitoramento ofensivo e resposta estratégica.</li>
+        <li>Visão executiva de exposição ao longo do tempo.</li>
+    </ul>
+    <a href="https://wa.me/5534991213363?text=Preciso%20falar%20sobre%20GHOST%20WARFARE." class="card-button" target="_blank">Falar com Especialista</a>
+</div>
+
+</div>
+
+<footer>
+    GHOST PROTOCOL OPERATIONS © 2025
+</footer>
+
+</body>
+</html>
+
+
+
+
