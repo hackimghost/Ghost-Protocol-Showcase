@@ -54,7 +54,7 @@ Princípios centrais da pesquisa:
 
 ---
 
-## 🧩 Escopo Técnico (Alto Nível)
+## 🧩 Escopo Técnico 
 
 > **Nota:** Os tópicos abaixo representam **áreas de estudo conceituais**.  
 > Nenhuma funcionalidade operacional é disponibilizada publicamente.
