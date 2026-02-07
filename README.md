@@ -1,114 +1,114 @@
 <div align="center">
-  <img src="images/ghost_mobile.png" alt="Ghost Protocol — Post-Tooling Era Interface" width="100%">
+  <img src="images/ghost_mobile.png" alt="Ghost Protocol — Interface da Era Pós-Ferramentas" width="100%">
   <br>
 
-  [![Build Status](https://img.shields.io/badge/System-Operational-success?style=for-the-badge&logo=github&color=00ff00)](https://github.com/ghost-protocol)
-  [![Architecture](https://img.shields.io/badge/Architecture-Decoupled_Intelligence-blue?style=for-the-badge&logo=google-cloud)](https://databricks.com)
-  [![Paradigm](https://img.shields.io/badge/Paradigm-Decision_Centric_Security-purple?style=for-the-badge&logo=guards)](https://nist.gov)
+  [![Status do Sistema](https://img.shields.io/badge/Sistema-Operacional-success?style=for-the-badge&logo=github&color=00ff00)](https://github.com/ghost-protocol)
+  [![Arquitetura](https://img.shields.io/badge/Arquitetura-Inteligência_Desacoplada-blue?style=for-the-badge&logo=google-cloud)](https://databricks.com)
+  [![Paradigma](https://img.shields.io/badge/Paradigma-Segurança_Centrada_em_Decisão-purple?style=for-the-badge&logo=guards)](https://nist.gov)
 
   <h1>GHOST PROTOCOL</h1>
-  <h3>The Shift to Decision-Centric Security</h3>
-  <sub>From Isolated Tools to Systemic Risk Orchestration</sub>
+  <h3>A Ruptura para Segurança Centrada em Decisão</h3>
+  <sub>De Ferramentas Isoladas para Orquestração Sistêmica de Risco</sub>
 </div>
 
 ---
 
-> **TL;DR:** Ghost Protocol represents a structural shift from reactive tooling to **decision-centric security architectures**. It prioritizes systemic posture modeling and probabilistic risk over linear vulnerability scanning.
+> **Resumo Estratégico:** O Ghost Protocol representa uma mudança estrutural de ferramentas reativas para **arquiteturas de segurança centradas em decisão**. O sistema prioriza a modelagem de postura sistêmica e o risco probabilístico em vez da varredura linear de vulnerabilidades.
 
 ---
 
-## 🌌 The Post-Tooling Era
+## 🌌 A Era Pós-Ferramentas
 
-Ghost Protocol introduces a fundamental divergence from the traditional "scan-and-patch" loop.
+O Ghost Protocol introduz uma divergência fundamental do ciclo tradicional de "escanear-e-corrigir".
 
-The core limitation of modern infrastructure protection is no longer **detection**—we have enough signals. The failure lies in **decision orchestration**.
+A limitação central da proteção de infraestrutura moderna não é mais a **detecção** — nós já temos sinais suficientes. A falha reside na **orquestração da decisão**.
 
-Legacy approaches fail because:
-* ❌ **Noise:** Traditional scanners generate alerts, not insight.
-* ❌ **Linearity:** Tools operate linearly in a world that fails systemically.
-* ❌ **Fragmentation:** Isolated frameworks cannot see the whole organism.
+Abordagens legadas falham porque:
+* ❌ **Ruído:** Scanners tradicionais geram alertas, não insights.
+* ❌ **Linearidade:** Ferramentas operam linearmente em um mundo que falha sistemicamente.
+* ❌ **Fragmentação:** Frameworks isolados não conseguem ver o organismo inteiro.
 
-**Ghost is not another security tool.** It represents a structural evolution designed to model the systemic risk, not just the technical symptoms.
+**O Ghost não é mais uma ferramenta de segurança.** Ele representa uma evolução estrutural desenhada para modelar o risco sistêmico, não apenas os sintomas técnicos.
 
 ---
 
-## 🏗️ Structural Innovation: Decoupled Architecture
+## 🏗️ Inovação Estrutural: Arquitetura Desacoplada
 
-The architecture is intentionally designed to **decouple perception, intelligence, and orchestration**. This allows the cognitive core to evolve without re-engineering the operational logic at the edge.
+A arquitetura foi intencionalmente projetada para **desacoplar percepção, inteligência e orquestração**. Isso permite que o núcleo cognitivo evolua sem a necessidade de reengenharia da lógica operacional na ponta (Edge).
 
 <div align="center">
-  <img src="images/ghost_arch_layers.jpg" alt="Transition from Tool-Centric to System-Centric Security" width="100%">
+  <img src="images/ghost_arch_layers.jpg" alt="Transição de Segurança Centrada em Ferramenta para Centrada em Sistema" width="100%">
   <br>
-  <sub><em>Fig 1. Structural Decoupling: Perception (Edge), Intelligence (Core), and Governance (Control) operating as distinct but coordinated planes.</em></sub>
+  <sub><em>Fig 1. Desacoplamento Estrutural: Percepção (Borda), Inteligência (Núcleo) e Governança (Controle) operando como planos distintos mas coordenados.</em></sub>
 </div>
 
-### 1. Perception Layer (The Edge)
-* **Role:** High-fidelity telemetry and context acquisition.
-* **The Shift:** Moves from *active scanning* to **environmental sensing**. The edge does not think; it observes with minimal footprint.
+### 1. Camada de Percepção (The Edge)
+* **Papel:** Telemetria de alta fidelidade e aquisição de contexto.
+* **A Ruptura:** Move de *varredura ativa* para **sensoriamento ambiental**. A borda não pensa; ela observa com "pegada" mínima.
 
-### 2. Cognitive Layer (The Core)
-* **Role:** Cloud-native probabilistic modeling (Spark/ML).
-* **The Shift:** Moves from *signature matching* to **behavioral inference**. Risk is calculated based on systemic impact probability, not static CVSS scores.
+### 2. Camada Cognitiva (The Core)
+* **Papel:** Modelagem probabilística nativa em nuvem (Spark/ML).
+* **A Ruptura:** Move de *correspondência de assinatura* para **inferência comportamental**. O risco é calculado com base na probabilidade de impacto sistêmico, não em scores CVSS estáticos.
 
-### 3. Orchestration Layer (The Governance)
-* **Role:** Human-Assisted Decision Support.
-* **The Shift:** Moves from *automated blocking* to **strategic mitigation**.
+### 3. Camada de Orquestração (The Governance)
+* **Papel:** Suporte à Decisão Assistida por Humano.
+* **A Ruptura:** Move de *bloqueio automatizado* para **mitigação estratégica**.
 
 ---
 
-## 🧠 Cognitive Security Fabric
+## 🧠 Tecido de Segurança Cognitiva
 
-In the post-tooling era, intelligence must be continuous, not episodic. Ghost utilizes a hybrid core to process unstructured data into structured decision trees.
+Na era pós-ferramentas, a inteligência deve ser contínua, não episódica. O Ghost utiliza um núcleo híbrido para processar dados não estruturados em árvores de decisão estruturadas.
 
 <div align="center">
-  <img src="images/ghost_neural_core.jpg" alt="Cognitive Fabric Visualization" width="100%">
+  <img src="images/ghost_neural_core.jpg" alt="Visualização do Tecido Cognitivo" width="100%">
   <br>
-  <sub><em>Fig 2. The Cognitive Fabric: Transforming fragmented telemetry streams into a unified topology of risk.</em></sub>
+  <sub><em>Fig 2. O Tecido Cognitivo: Transformando fluxos fragmentados de telemetria em uma topologia unificada de risco.</em></sub>
 </div>
 
-### Key Capabilities
+### Capacidades Chave
 
-* **From Isolated Signals to Contextual Intelligence**
-    Correlates disparate data points (OSINT, Logs, Network) to reveal hidden attack surfaces that single tools miss.
+* **De Sinais Isolados para Inteligência Contextual**
+    Correlaciona pontos de dados díspares (OSINT, Logs, Rede) para revelar superfícies de ataque ocultas que ferramentas únicas perdem.
 
-* **From Reactive Tooling to Adaptive Posture**
-    The system learns from the environment, adjusting its models based on architectural changes, not just rule updates.
+* **De Ferramentas Reativas para Postura Adaptativa**
+    O sistema aprende com o ambiente, ajustando seus modelos com base em mudanças arquiteturais, não apenas atualizações de regras.
 
-* **From Static Reporting to Dynamic Modeling**
-    Risk is presented as a living graph of relationships (Topology), not a static PDF of vulnerabilities.
+* **De Relatórios Estáticos para Modelagem Dinâmica**
+    O risco é apresentado como um grafo vivo de relacionamentos (Topologia), não um PDF estático de vulnerabilidades.
 
 ---
 
-## ⚖️ Operational Model: Human-Assisted Intelligence
+## ⚖️ Modelo Operacional: Inteligência Assistida
 
-Automation should amplify human judgment, not replace it.
+A automação deve amplificar o julgamento humano, não substituí-lo.
 
-Ghost adopts a **Human-in-the-Loop (HITL)** model as a primary design feature. By offloading the heavy lifting of correlation to the cloud, the system frees the operator to focus on **Strategic Decision Making**.
+O Ghost adota um modelo **Human-in-the-Loop (HITL)** como um recurso primário de design. Ao transferir o trabalho pesado de correlação para a nuvem, o sistema libera o operador para focar na **Tomada de Decisão Estratégica**.
 
 <div align="center">
-  <img src="images/ghost_control_plane.jpg" alt="Governance Control Plane" width="100%">
+  <img src="images/ghost_control_plane.jpg" alt="Plano de Controle de Governança" width="100%">
   <br>
-  <sub><em>Fig 3. The Governance Ring: Visual representation of the decision-support interface, ensuring all automated logic remains subservient to human intent.</em></sub>
+  <sub><em>Fig 3. O Anel de Governança: Representação visual da interface de suporte à decisão, garantindo que toda lógica automatizada permaneça subserviente à intenção humana.</em></sub>
 </div>
 
-### Governance by Design
-* **Ephemeral Workloads:** Processing states are destroyed post-analysis to ensure data sovereignty.
-* **Cryptographic Isolation:** The decision plane is cryptographically separated from the execution plane.
-* **Auditable Intelligence:** Every algorithmic inference provides a traceability chain for operator validation.
+### Governança por Design
+* **Workloads Efêmeros:** Estados de processamento são destruídos pós-análise para garantir soberania dos dados.
+* **Isolamento Criptográfico:** O plano de decisão é criptograficamente separado do plano de execução.
+* **Inteligência Auditável:** Cada inferência algorítmica fornece uma cadeia de rastreabilidade para validação do operador.
 
 ---
 
-## 📌 Project Status & Vision
+## 📌 Status do Projeto & Visão
 
-This repository hosts the documentation and architectural concepts for the Ghost Protocol research initiative.
+Este repositório hospeda a documentação e conceitos arquiteturais para a iniciativa de pesquisa Ghost Protocol.
 
-* **Phase:** Systemic Integration (v5.0)
-* **Focus:** Advancing the state of Decision-Centric Security.
-* **Access:** Restricted Research Environment.
+* **Fase:** Integração Sistêmica (v5.0)
+* **Foco:** Avançar o estado da arte em Segurança Centrada em Decisão.
+* **Acesso:** Ambiente de Pesquisa Restrito.
 
 ---
 
 <div align="center">
-  <h3>"The future of security belongs to systems that can think, not just tools that can scan."</h3>
+  <h3>"O futuro da segurança pertence aos sistemas que conseguem pensar, não apenas às ferramentas que sabem escanear."</h3>
   <sub>© 2026 Ghost Protocol Research Division.</sub>
 </div>
