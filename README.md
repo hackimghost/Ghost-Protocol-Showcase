@@ -13,19 +13,28 @@
 
 ---
 
+> **TL;DR:** Ghost Protocol represents a structural shift from reactive tooling to **decision-centric security architectures**. It prioritizes systemic posture modeling and probabilistic risk over linear vulnerability scanning.
+
+---
+
 ## 🌌 The Post-Tooling Era
 
-Ghost Protocol introduces a fundamental shift from **tool-driven security** to **decision-driven platforms**.
+Ghost Protocol introduces a fundamental divergence from the traditional "scan-and-patch" loop.
 
-The core limitation of modern infrastructure protection is not detection—we have enough signals. The failure lies in **decision orchestration**. Traditional scanners and isolated frameworks generate noise, not insight. They operate linearly in a world that fails systemically.
+The core limitation of modern infrastructure protection is no longer **detection**—we have enough signals. The failure lies in **decision orchestration**.
 
-**Ghost is not another security tool.** It represents a structural evolution beyond tool-centric models, designed to model the organism, not just the symptoms.
+Legacy approaches fail because:
+* ❌ **Noise:** Traditional scanners generate alerts, not insight.
+* ❌ **Linearity:** Tools operate linearly in a world that fails systemically.
+* ❌ **Fragmentation:** Isolated frameworks cannot see the whole organism.
+
+**Ghost is not another security tool.** It represents a structural evolution designed to model the systemic risk, not just the technical symptoms.
 
 ---
 
 ## 🏗️ Structural Innovation: Decoupled Architecture
 
-The architecture is intentionally designed to **decouple perception, intelligence, and orchestration**. This allows the system to evolve its cognitive core without re-engineering the operational logic at the edge.
+The architecture is intentionally designed to **decouple perception, intelligence, and orchestration**. This allows the cognitive core to evolve without re-engineering the operational logic at the edge.
 
 <div align="center">
   <img src="images/ghost_arch_layers.jpg" alt="Transition from Tool-Centric to System-Centric Security" width="100%">
@@ -35,15 +44,15 @@ The architecture is intentionally designed to **decouple perception, intelligenc
 
 ### 1. Perception Layer (The Edge)
 * **Role:** High-fidelity telemetry and context acquisition.
-* **Shift:** Moves from "active scanning" to "environmental sensing." The edge does not think; it observes with minimal footprint.
+* **The Shift:** Moves from *active scanning* to **environmental sensing**. The edge does not think; it observes with minimal footprint.
 
 ### 2. Cognitive Layer (The Core)
 * **Role:** Cloud-native probabilistic modeling (Spark/ML).
-* **Shift:** Moves from "signature matching" to "behavioral inference." Risk is calculated based on systemic impact probability, not static CVSS scores.
+* **The Shift:** Moves from *signature matching* to **behavioral inference**. Risk is calculated based on systemic impact probability, not static CVSS scores.
 
 ### 3. Orchestration Layer (The Governance)
 * **Role:** Human-Assisted Decision Support.
-* **Shift:** Moves from "automated blocking" to "strategic mitigation."
+* **The Shift:** Moves from *automated blocking* to **strategic mitigation**.
 
 ---
 
@@ -58,9 +67,15 @@ In the post-tooling era, intelligence must be continuous, not episodic. Ghost ut
 </div>
 
 ### Key Capabilities
-* **From Isolated Signals to Contextual Intelligence:** Correlates disparate data points (OSINT, Logs, Network) to reveal hidden attack surfaces.
-* **From Reactive Tooling to Adaptive Posture:** The system learns from the environment, adjusting its models based on architectural changes, not just rule updates.
-* **From Static Reporting to Dynamic Modeling:** Risk is presented as a living graph of relationships, not a PDF of vulnerabilities.
+
+* **From Isolated Signals to Contextual Intelligence**
+    Correlates disparate data points (OSINT, Logs, Network) to reveal hidden attack surfaces that single tools miss.
+
+* **From Reactive Tooling to Adaptive Posture**
+    The system learns from the environment, adjusting its models based on architectural changes, not just rule updates.
+
+* **From Static Reporting to Dynamic Modeling**
+    Risk is presented as a living graph of relationships (Topology), not a static PDF of vulnerabilities.
 
 ---
 
@@ -68,7 +83,7 @@ In the post-tooling era, intelligence must be continuous, not episodic. Ghost ut
 
 Automation should amplify human judgment, not replace it.
 
-Ghost adopts a **Human-in-the-Loop (HITL)** model as a primary design feature, not a compliance constraint. By offloading the heavy lifting of correlation and pattern recognition to the cloud, the system frees the human operator to focus on what matters: **Strategic Decision Making**.
+Ghost adopts a **Human-in-the-Loop (HITL)** model as a primary design feature. By offloading the heavy lifting of correlation to the cloud, the system frees the operator to focus on **Strategic Decision Making**.
 
 <div align="center">
   <img src="images/ghost_control_plane.jpg" alt="Governance Control Plane" width="100%">
