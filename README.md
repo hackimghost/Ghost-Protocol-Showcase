@@ -13,92 +13,85 @@
 
 ---
 
-## TL;DR
-
-**Ghost Protocol** é uma plataforma de **apoio à decisão em segurança** voltada a ambientes complexos, distribuídos e ruidosos.  
-Ela **não executa ações autônomas**, não depende de varreduras lineares e não produz listas estáticas — seu foco é **modelar risco sistêmico**, reduzir custo cognitivo e apoiar decisões humanas estratégicas por meio de inferência probabilística e correlação de sinais.
-
----
-
-> **Nota de Engenharia:**  
-> O Ghost Protocol não foi concebido como uma ferramenta *turnkey*. Trata-se de uma plataforma de apoio à decisão projetada para **ambientes de alta entropia**, exigindo operadores qualificados para interpretar os artefatos de risco gerados.
+> **Nota de Engenharia:** O Ghost Protocol não foi concebido como uma ferramenta *turnkey* de automação. Trata-se de uma plataforma de apoio à decisão projetada para **ambientes de alta entropia**, exigindo operadores qualificados para interpretar os artefatos de risco gerados.
 
 ---
 
 ## 🌌 A Era Pós-Ferramentas
 
-A arquitetura atual do Ghost é resultado de **múltiplos ciclos de validação interna**, desenhada para superar limitações observadas em scanners lineares quando aplicados a infraestruturas distribuídas e altamente variáveis.
+A arquitetura atual do Ghost é o resultado de **múltiplos ciclos de validação interna**, desenhada para superar as limitações observadas em scanners lineares quando submetidos a infraestruturas distribuídas e ruidosas.
 
-O problema central da segurança moderna não é a falta de alertas, mas a incapacidade de **orquestrar decisões** em tempo hábil.
-
-Ferramentas isoladas produzem dados.  
-O Ghost produz **contexto operacional acionável**.
+O problema central da segurança moderna não é a falta de alertas, mas a incapacidade de **orquestrar decisões** em tempo hábil. Ferramentas isoladas geram dados; o Ghost gera **contexto**.
 
 ### Princípios de Design (Baseados em Falha)
-
-* **Resiliência ao Ruído:** Operação consistente sob sinal degradado e telemetria incompleta.
-* **Fim da Linearidade:** Substituição de listas estáticas por grafos probabilísticos de risco.
-* **Redução do Custo Cognitivo:** A plataforma assume correlação e priorização, liberando o operador para estratégia.
+* **Resiliência ao Ruído:** Projetado deliberadamente para operar sob condições de sinal degradado e alta variabilidade.
+* **Fim da Linearidade:** Abandona listas estáticas de vulnerabilidade em favor de grafos de risco probabilístico.
+* **Custo Cognitivo:** O sistema assume a carga de correlação para que o operador foque exclusivamente na estratégia.
 
 ---
 
 ## 🏗️ Decisões Arquiteturais e Trade-offs
 
-A separação estrita entre camadas não é estética — é uma decisão de engenharia baseada em observação empírica:  
-acoplamento excessivo entre coleta e decisão gera fragilidade sistêmica.
+A separação estrita entre camadas não é apenas estética; é uma resposta direta à necessidade de estabilidade operacional. Observou-se que acoplar lógica de decisão à coleta de dados introduzia fragilidade sistêmica.
 
 <div align="center">
   <img src="images/ghost_arch_layers.jpg" alt="Arquitetura Desacoplada: Estabilidade via Isolamento" width="100%">
   <br>
-  <sub><em>Fig 1. Desacoplamento Estrutural: ausência deliberada de persistência na camada de execução para reduzir superfície residual.</em></sub>
+  <sub><em>Fig 1. Desacoplamento Estrutural: A persistência de dados foi deliberadamente evitada na camada de execução para reduzir a superfície residual.</em></sub>
 </div>
 
 ### 1. Camada de Percepção (The Edge)
-
-* **Função:** Coleta passiva e normalização de sinais.
-* **Decisão Técnica:** Otimização para silêncio operacional e baixo footprint, não para varredura agressiva.
+* **Função:** Coleta passiva e normalização de telemetria.
+* **Realidade Operacional:** Componentes foram otimizados para "silêncio", priorizando baixo footprint em vez de velocidade bruta de varredura.
 
 ### 2. Camada Cognitiva (The Core)
-
-* **Função:** Inferência, correlação e reavaliação contínua.
-* **Decisão Técnica:** Execução em ciclos curtos de inferência, onde cada saída retroalimenta o modelo.
+* **Função:** Processamento de inferência e correlação (Spark/ML).
+* **Realidade Operacional:** O núcleo opera em **ciclos curtos de inferência e reavaliação**, onde cada output retroalimenta o modelo para refinar a precisão da próxima iteração.
 
 ### 3. Camada de Orquestração (The Governance)
-
-* **Função:** Suporte estruturado à decisão humana.
-* **Decisão Técnica:** Outputs agregados por classe de risco, prontos para consumo estratégico.
+* **Função:** Suporte à Decisão Humana.
+* **Realidade Operacional:** A plataforma produz **artefatos de decisão agregados por classe de risco**, normalizados para consumo humano imediato, eliminando a necessidade de triagem manual de logs brutos.
 
 ---
 
 ## 🧠 Tecido Cognitivo e Outputs
 
-A plataforma não entrega listas.  
-Ela constrói **topologias vivas de risco**.
+Diferente de ferramentas que entregam listas, a plataforma constrói uma topologia viva.
 
 <div align="center">
   <img src="images/ghost_neural_core.jpg" alt="Visualização de Topologia de Risco" width="100%">
   <br>
-  <sub><em>Fig 2. Tecido Cognitivo: transformação de sinais fragmentados em estruturas decisórias.</em></sub>
+  <sub><em>Fig 2. O Tecido Cognitivo: Transformação de sinais brutos em árvores de decisão estruturadas.</em></sub>
 </div>
 
 ### Ciclo de Vida da Informação
-
-1. **Ingestão:** Absorção de sinais heterogêneos.
-2. **Normalização:** Conversão para um *schema* comum de decisão.
-3. **Inferência:** Atribuição de peso com base em probabilidade contextual.
-4. **Output:** Cenários de mitigação e priorização assistida.
+1.  **Ingestão:** O sistema absorve sinais fragmentados de múltiplas fontes.
+2.  **Normalização:** Dados são estruturados em um *schema* comum de decisão.
+3.  **Inferência:** O modelo probabilístico atribui peso e relevância (não apenas severidade técnica).
+4.  **Output:** Geração de cenários de mitigação validados.
 
 ---
 
-## 🔄 Exemplo Teórico de Fluxo de Dados (Não Executável)
+## ⚖️ Modelo Operacional: Inteligência Assistida
 
-```text
-Sinais Brutos (Logs / Telemetria / OSINT)
-        ↓
-Normalização Semântica
-        ↓
-Correlação Probabilística
-        ↓
-Modelagem de Risco Sistêmico
-        ↓
-Artefato de Decisão (Human-Readable)
+Optou-se por um modelo **Human-in-the-Loop** não por compliance, mas por eficácia. A automação cega falha em contextos de nuance.
+
+<div align="center">
+  <img src="images/ghost_control_plane.jpg" alt="Plano de Controle de Governança" width="100%">
+  <br>
+  <sub><em>Fig 3. Plano de Controle: A interface foi desenhada para facilitar a intervenção humana estratégica, mantendo a lógica de execução isolada.</em></sub>
+</div>
+
+### Status do Projeto
+O núcleo da plataforma encontra-se **operacional em ambientes controlados de pesquisa e validação**, servindo como base para estudos de modelagem de ameaças sistêmicas.
+
+* **Maturidade:** v5.0 (Iteração de Integração Híbrida)
+* **Foco:** Refinamento de modelos de decisão em cenários de incerteza.
+* **Acesso:** Restrito a laboratórios autorizados.
+
+---
+
+<div align="center">
+  <h3>"Sistemas robustos não eliminam o erro; eles o gerenciam através de arquitetura superior."</h3>
+  <sub>© 2026 Ghost Protocol Research Division.</sub>
+</div>
