@@ -1,97 +1,107 @@
 <div align="center">
-  <img src="images/ghost_mobile.png" alt="Ghost Protocol — Interface de Alta Densidade" width="100%">
+  <img src="images/ghost_mobile.png" alt="Ghost Protocol — Plataforma de Validação de Segurança" width="100%">
   <br>
 
-  [![Status Operacional](https://img.shields.io/badge/Status-Operacional_em_Pesquisa-success?style=for-the-badge&logo=github&color=00ff00)](https://github.com/ghost-protocol)
-  [![Arquitetura](https://img.shields.io/badge/Design-Isolamento_Estrito-blue?style=for-the-badge&logo=google-cloud)](https://databricks.com)
-  [![Engenharia](https://img.shields.io/badge/Engenharia-Ciclos_de_Inferência-purple?style=for-the-badge&logo=guards)](https://nist.gov)
+  [![Categoria](https://img.shields.io/badge/Categoria-Simulação_Adversarial-blue?style=for-the-badge&logo=shield)](https://github.com/ghost-protocol)
+  [![Modelo](https://img.shields.io/badge/Modelo-SaaS_Gerenciado-success?style=for-the-badge&logo=google-cloud)](https://google.com)
+  [![Foco](https://img.shields.io/badge/Foco-Infraestrutura_Crítica-black?style=for-the-badge&logo=server)](https://nist.gov)
 
   <h1>GHOST PROTOCOL</h1>
-  <h3>Plataforma de Inteligência de Segurança Adaptativa</h3>
-  <sub>Orquestração de Risco Baseada em Evidência e Decisão</sub>
+  <h3>Plataforma de Validação de Resiliência Cibernética</h3>
+  <sub>Simulação de Cenários Adversariais & Gestão de Exposição</sub>
 </div>
 
 ---
 
-> **Nota de Engenharia:** O Ghost Protocol não foi concebido como uma ferramenta *turnkey* de automação. Trata-se de uma plataforma de apoio à decisão projetada para **ambientes de alta entropia**, exigindo operadores qualificados para interpretar os artefatos de risco gerados.
+> **Proposta de Valor:** O Ghost Protocol é uma plataforma de segurança cibernética orientada a risco, utilizada para **simular cenários reais de ameaça** contra infraestruturas corporativas. O sistema permite que organizações identifiquem fragilidades sistêmicas e validem seus controles defensivos antes que adversários reais o façam.
 
 ---
 
-## 🌌 A Era Pós-Ferramentas
+## 🎯 Por que o Ghost Protocol?
 
-A arquitetura atual do Ghost é o resultado de **múltiplos ciclos de validação interna**, desenhada para superar as limitações observadas em scanners lineares quando submetidos a infraestruturas distribuídas e ruidosas.
+O mercado de segurança está saturado de ferramentas de *Compliance* que geram listas intermináveis de vulnerabilidades técnicas, mas falham em responder à pergunta crítica: **"Se formos atacados hoje, nossos controles aguentam?"**
 
-O problema central da segurança moderna não é a falta de alertas, mas a incapacidade de **orquestrar decisões** em tempo hábil. Ferramentas isoladas geram dados; o Ghost gera **contexto**.
+O Ghost Protocol preenche a lacuna entre a conformidade teórica e a realidade operacional.
 
-### Princípios de Design (Baseados em Falha)
-* **Resiliência ao Ruído:** Projetado deliberadamente para operar sob condições de sinal degradado e alta variabilidade.
-* **Fim da Linearidade:** Abandona listas estáticas de vulnerabilidade em favor de grafos de risco probabilístico.
-* **Custo Cognitivo:** O sistema assume a carga de correlação para que o operador foque exclusivamente na estratégia.
+### Diferenciais Estratégicos
+* **De Ferramenta para Plataforma:** Não entregamos apenas logs de erro; entregamos **Inteligência de Decisão**.
+* **Validação Comportamental:** Diferente de scanners estáticos, o Ghost simula o **comportamento de um adversário sofisticado**, testando a capacidade de resposta do seu SOC e a resiliência da sua arquitetura.
+* **Cenários Realistas:** Avaliação contínua sob condições de estresse operacional, modelando vetores que ferramentas automatizadas tradicionais ignoram.
 
 ---
 
-## 🏗️ Decisões Arquiteturais e Trade-offs
+## 🏗️ Metodologia e Arquitetura
 
-A separação estrita entre camadas não é apenas estética; é uma resposta direta à necessidade de estabilidade operacional. Observou-se que acoplar lógica de decisão à coleta de dados introduzia fragilidade sistêmica.
+Nossa abordagem utiliza uma arquitetura distribuída para modelar riscos complexos em ambientes heterogêneos. O sistema foi projetado para operar com baixo impacto na continuidade dos negócios, focando na precisão da análise.
 
 <div align="center">
-  <img src="images/ghost_arch_layers.jpg" alt="Arquitetura Desacoplada: Estabilidade via Isolamento" width="100%">
+  <img src="images/ghost_arch_layers.jpg" alt="Arquitetura de Validação Distribuída" width="100%">
   <br>
-  <sub><em>Fig 1. Desacoplamento Estrutural: A persistência de dados foi deliberadamente evitada na camada de execução para reduzir a superfície residual.</em></sub>
+  <sub><em>Fig 1. Arquitetura Modular: Segregação entre coleta de telemetria, análise de risco e apresentação executiva.</em></sub>
 </div>
 
-### 1. Camada de Percepção (The Edge)
-* **Função:** Coleta passiva e normalização de telemetria.
-* **Realidade Operacional:** Componentes foram otimizados para "silêncio", priorizando baixo footprint em vez de velocidade bruta de varredura.
+### 1. Camada de Avaliação (Input)
+* **Função:** Coleta de evidências e telemetria de superfície.
+* **Metodologia:** Utiliza técnicas passivas e ativas para mapear a exposição real da infraestrutura, simulando o reconhecimento feito por atores externos.
 
-### 2. Camada Cognitiva (The Core)
-* **Função:** Processamento de inferência e correlação (Spark/ML).
-* **Realidade Operacional:** O núcleo opera em **ciclos curtos de inferência e reavaliação**, onde cada output retroalimenta o modelo para refinar a precisão da próxima iteração.
+### 2. Camada Analítica (Processing)
+* **Função:** Correlação de dados e Modelagem de Ameaça.
+* **Metodologia:** Processa os dados coletados para distinguir "ruído técnico" de "risco de negócio", aplicando modelos estatísticos para prever caminhos de comprometimento.
 
-### 3. Camada de Orquestração (The Governance)
-* **Função:** Suporte à Decisão Humana.
-* **Realidade Operacional:** A plataforma produz **artefatos de decisão agregados por classe de risco**, normalizados para consumo humano imediato, eliminando a necessidade de triagem manual de logs brutos.
+### 3. Camada de Decisão (Presentation)
+* **Função:** Interface de Apoio à Decisão Estratégica.
+* **Metodologia:** Transforma dados técnicos em artefatos de decisão priorizados, permitindo que gestores foquem recursos onde o risco é iminente.
 
 ---
 
-## 🧠 Tecido Cognitivo e Outputs
+## 🧠 Inteligência de Risco
 
-Diferente de ferramentas que entregam listas, a plataforma constrói uma topologia viva.
+A plataforma abandona a visão linear de "listas de bugs" em favor de uma visão sistêmica.
 
 <div align="center">
-  <img src="images/ghost_neural_core.jpg" alt="Visualização de Topologia de Risco" width="100%">
+  <img src="images/ghost_neural_core.jpg" alt="Modelagem de Risco Sistêmico" width="100%">
   <br>
-  <sub><em>Fig 2. O Tecido Cognitivo: Transformação de sinais brutos em árvores de decisão estruturadas.</em></sub>
+  <sub><em>Fig 2. Topologia de Risco: O sistema mapeia como pequenas falhas isoladas podem ser encadeadas para gerar impacto crítico.</em></sub>
 </div>
 
-### Ciclo de Vida da Informação
-1.  **Ingestão:** O sistema absorve sinais fragmentados de múltiplas fontes.
-2.  **Normalização:** Dados são estruturados em um *schema* comum de decisão.
-3.  **Inferência:** O modelo probabilístico atribui peso e relevância (não apenas severidade técnica).
-4.  **Output:** Geração de cenários de mitigação validados.
+### Capacidades da Plataforma
+1.  **Mapeamento de Superfície:** Visibilidade total de ativos expostos e sombra digital (Shadow IT).
+2.  **Validação de Controles:** Teste prático da eficácia de Firewalls, WAFs e políticas de detecção.
+3.  **Priorização Baseada em Impacto:** Classificação de risco baseada na probabilidade real de exploração no contexto do cliente.
 
 ---
 
-## ⚖️ Modelo Operacional: Inteligência Assistida
+## ⚖️ Modelo de Entrega e Operação
 
-Optou-se por um modelo **Human-in-the-Loop** não por compliance, mas por eficácia. A automação cega falha em contextos de nuance.
+**O Ghost Protocol não é um software de prateleira (Off-the-Shelf).**
+Trata-se de uma **Plataforma Gerenciada**, operada por especialistas em segurança ofensiva e defesa cibernética.
 
 <div align="center">
-  <img src="images/ghost_control_plane.jpg" alt="Plano de Controle de Governança" width="100%">
+  <img src="images/ghost_control_plane.jpg" alt="Painel de Controle Estratégico" width="100%">
   <br>
-  <sub><em>Fig 3. Plano de Controle: A interface foi desenhada para facilitar a intervenção humana estratégica, mantendo a lógica de execução isolada.</em></sub>
+  <sub><em>Fig 3. Visão do Operador: Interface desenhada para maximizar a interpretação humana sobre dados complexos.</em></sub>
 </div>
 
-### Status do Projeto
-O núcleo da plataforma encontra-se **operacional em ambientes controlados de pesquisa e validação**, servindo como base para estudos de modelagem de ameaças sistêmicas.
+### Para quem é esta solução?
+A plataforma é destinada exclusivamente a organizações que necessitam de validação de segurança de alto nível:
 
-* **Maturidade:** v5.0 (Iteração de Integração Híbrida)
-* **Foco:** Refinamento de modelos de decisão em cenários de incerteza.
-* **Acesso:** Restrito a laboratórios autorizados.
+* 🏢 **Infraestruturas Críticas:** Energia, Telecom e Logística.
+* 🏦 **Setor Financeiro e Fintechs:** Ambientes altamente regulados.
+* 🛡️ **Centros de Operações de Segurança (SOCs):** Para validação contínua de detecção (Purple Teaming).
+
+---
+
+## 📌 Status e Contratação
+
+Este repositório serve como documentação técnica da metodologia aplicada pela **Ghost Protocol Research Division**.
+
+* **Modelo:** Enterprise Service / Managed Platform.
+* **Disponibilidade:** Sob consulta para ambientes corporativos qualificados.
+* **Licença:** Proprietária. O uso da tecnologia é restrito à prestação de serviços autorizada.
 
 ---
 
 <div align="center">
-  <h3>"Sistemas robustos não eliminam o erro; eles o gerenciam através de arquitetura superior."</h3>
+  <h3>"Segurança não é sobre a ausência de vulnerabilidades, mas sobre a capacidade de gerenciar o risco em tempo real."</h3>
   <sub>© 2026 Ghost Protocol Research Division.</sub>
 </div>
