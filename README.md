@@ -57,9 +57,18 @@ Nossa abordagem prioriza a integridade do ambiente e a precisão da telemetria. 
 A plataforma adota uma visão holística, mapeando como pequenas fragilidades podem comprometer a resiliência de toda a infraestrutura organizacional.
 
 <div align="center">
-  <img src="images/dashboard.png" alt="Painel de Controle Estratégico" width="100%">
+  <img src="images/dashbordShowcase .png" alt="Painel de Controle Estratégico" width="100%">
   <br>
   <sub><em>Fig 2. Visão Executiva: Interface desenhada para transformar dados técnicos complexos em níveis de ameaça global e métricas de severidade.</em></sub>
+</div>
+
+### Topologia de Risco Neural
+Para uma análise profunda, o Ghost mapeia as interconexões de ativos, prevendo caminhos de comprometimento que ferramentas estáticas ignoram.
+
+<div align="center">
+  <img src="images/ghost_neural_core.jpg" alt="Modelagem de Risco Neural" width="100%">
+  <br>
+  <sub><em>Fig 3. Core Neural: Processamento de correlação para identificar pontos únicos de falha na infraestrutura.</em></sub>
 </div>
 
 ### Capacidades da Plataforma
@@ -77,7 +86,7 @@ O acesso à tecnologia é restrito a organizações qualificadas que buscam o ma
 <div align="center">
   <img src="images/ghost_control_plane.jpg" alt="Monitoramento de Operações" width="100%">
   <br>
-  <sub><em>Fig 3. Registro de Operações: Detalhamento de validações em tempo real, garantindo rastreabilidade e precisão na identificação de falhas críticas.</em></sub>
+  <sub><em>Fig 4. Registro de Operações: Detalhamento de validações em tempo real, garantindo rastreabilidade e precisão na identificação de falhas críticas.</em></sub>
 </div>
 
 ### Para quem é esta solução?
