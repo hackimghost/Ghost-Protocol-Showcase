@@ -57,7 +57,7 @@ Nossa abordagem prioriza a integridade do ambiente e a precisão da telemetria. 
 A plataforma adota uma visão holística, mapeando como pequenas fragilidades podem comprometer a resiliência de toda a infraestrutura organizacional.
 
 <div align="center">
-  <img src="images/dashbordShowcase.png" alt="Painel de Controle Estratégico" width="100%">
+  <img src="images/dashbordShowcase1.png" alt="Painel de Controle Estratégico" width="100%">
   <br>
   <sub><em>Fig 2. Visão Executiva: Interface desenhada para transformar dados técnicos complexos em níveis de ameaça global e métricas de severidade.</em></sub>
 </div>
