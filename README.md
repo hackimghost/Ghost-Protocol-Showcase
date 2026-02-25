@@ -10,6 +10,26 @@ O **GHOST** é uma infraestrutura de Comando e Controle (C2) de última geraçã
 
 ---
 
+<div align="center">
+  <img src="images/ghost_mobile.png" alt="GHOST — Ecossistema de Resiliência Cibernética" width="100%">
+  <br><br>
+  <a href="https://github.com/hackimghost/Ghost-Protocol-Showcase">
+    <img src="https://img.shields.io/badge/Categoria-Validação_de_Resiliência-blue?style=for-the-badge&logo=shield" alt="Categoria">
+  </a>
+  <a href="https://google.com">
+    <img src="https://img.shields.io/badge/Proteção-Camadas_Inteligentes-success?style=for-the-badge&logo=google-cloud" alt="Segurança">
+  </a>
+  <a href="https://nist.gov">
+    <img src="https://img.shields.io/badge/Foco-Infraestrutura_Crítica-black?style=for-the-badge&logo=server" alt="Foco">
+  </a>
+</div>
+
+---
+
+> **Proposta de Valor:** O GHOST é uma plataforma de segurança cibernética orientada a risco, projetada para validar a integridade de infraestruturas críticas sob condições de estresse real.
+
+---
+
 ## 🏗️ Arquitetura e Topologia
 
 O GHOST opera através de uma central de comando descentralizada, focada em furtividade, coleta passiva de telemetria e manutenção de acesso. Toda a arquitetura foi desenhada para operar silenciosamente, extraindo informações vitais sem alertar os sistemas de defesa.
@@ -30,36 +50,9 @@ O GHOST opera através de uma central de comando descentralizada, focada em furt
 - **Manutenção de Persistência:** O framework estabiliza conexões e processos mesmo sob rigorosas políticas de gerenciamento de memória corporativa e limitações de background, garantindo a continuidade do engajamento.
 - **Heurística de Adaptação:** O agente ajusta seu comportamento e fluxo de rede para se misturar ao tráfego legítimo do ambiente alvo, evitando anomalias que disparem alarmes de segurança.
 
-## ⚠️ Aviso Legal e Ética
-
-Este projeto é estritamente educacional e focado em pesquisa defensiva/ofensiva para profissionais de cibersegurança. A utilização deste framework em redes ou sistemas sem o consentimento explícito e formalizado dos proprietários é estritamente proibida e ilegal.
-
-<div align="center">
-  <img src="images/ghost_mobile.png" alt="GHOST — Ecossistema de Resiliência Cibernética" width="100%">
-  <br>
-  [![Categoria](https://img.shields.io/badge/Categoria-Validação_de_Resiliência-blue?style=for-the-badge&logo=shield)](https://github.com/hackimghost/Ghost-Protocol-Showcase)
-  [![Segurança](https://img.shields.io/badge/Proteção-Camadas_Inteligentes-success?style=for-the-badge&logo=google-cloud)](https://google.com)
-  [![Foco](https://img.shields.io/badge/Foco-Infraestrutura_Crítica-black?style=for-the-badge&logo=server)](https://nist.gov)
-</div>
-
 ---
 
-> **Proposta de Valor:** O GHOST é uma plataforma de segurança cibernética orientada a risco, projetada para validar a integridade de infraestruturas críticas sob condições de estresse real.
-
----
-
-## 🎯 Por que o GHOST?
-
-Em um cenário de ameaças em constante evolução, confiar apenas em defesas estáticas é insuficiente. O framework provê a inteligência necessária para testar se os seus controles operacionais são capazes de suportar engajamentos reais, indo além dos relatórios de conformidade tradicionais.
-
-### Diferenciais Estratégicos
-* **Operação Furtiva:** O sistema utiliza protocolos de mascaramento avançados que garantem a extração de dados com o mínimo de ruído.
-* **Inteligência Adaptativa:** O motor cognitivo se ajusta às particularidades de cada ambiente, operando de forma otimizada para minimizar qualquer impacto na continuidade dos negócios.
-* **Foco em Infraestrutura Crítica:** Desenvolvido para atender os rigorosos padrões de segurança exigidos por setores estratégicos como Energia, Telecom e Setor Financeiro.
-
----
-
-## 🏗️ Metodologia e Arquitetura
+## 🎯 Metodologia e Arquitetura
 
 Nossa abordagem prioriza a integridade do ambiente e a precisão da telemetria. O GHOST foi projetado para ser uma solução silenciosa, focada na extração de inteligência de decisão para gestores e equipes de defesa.
 
@@ -69,17 +62,10 @@ Nossa abordagem prioriza a integridade do ambiente e a precisão da telemetria. 
   <sub><em>Fig 1. Fluxo de Orquestração: Integração de camadas de comando e controle focadas em inteligência ofensiva.</em></sub>
 </div>
 
-### 1. Camada de Avaliação (Input)
-* **Função:** Monitoramento de superfície e telemetria de exposição.
-* **Metodologia:** Utiliza técnicas passivas e ativas para mapear a exposição real da infraestrutura, identificando ativos críticos e sombras digitais (Shadow IT).
-
-### 2. Camada de Orquestração (Processing)
-* **Função:** Validação de Controles e Persistência.
-* **Metodologia:** Teste contínuo da eficácia de barreiras defensivas através do estabelecimento de comunicação contínua com a infraestrutura C2.
-
-### 3. Camada de Decisão (Presentation)
-* **Função:** Gestão de Exposição em Tempo Real.
-* **Metodologia:** Transforma evidências técnicas em artefatos de decisão priorizados para a alta gestão, permitindo o gerenciamento de risco sob demanda.
+### Camadas de Execução
+* **Avaliação (Input):** Utiliza técnicas passivas e ativas para mapear a exposição real da infraestrutura, identificando ativos críticos e sombras digitais (Shadow IT).
+* **Orquestração (Processing):** Teste contínuo da eficácia de barreiras defensivas através do estabelecimento de comunicação contínua com a infraestrutura C2.
+* **Decisão (Presentation):** Transforma evidências técnicas em artefatos de decisão priorizados para a alta gestão, permitindo o gerenciamento de risco sob demanda.
 
 ---
 
@@ -102,10 +88,6 @@ Para uma análise profunda, o motor mapeia as interconexões de ativos, prevendo
   <sub><em>Fig 3. Core Neural: Processamento de correlação para identificar pontos únicos de falha na infraestrutura.</em></sub>
 </div>
 
-### Capacidades da Plataforma
-1.  **Tecnologia Atualizada:** O ecossistema é constantemente aprimorado para refletir os padrões de segurança mais recentes do mercado.
-2.  **Operação Consolidada:** Arquitetura desenhada para processar a telemetria auditada mantendo a máxima estabilidade operacional.
-
 ---
 
 ## ⚖️ Modelo de Entrega e Operação
@@ -125,6 +107,10 @@ O acesso à tecnologia é restrito a organizações qualificadas que buscam o ma
 * 🛡️ **Centros de Operações de Segurança (SOCs):** Para aprimoramento contínuo da capacidade de detecção.
 
 ---
+
+## ⚠️ Aviso Legal e Ética
+
+Este projeto é estritamente educacional e focado em pesquisa defensiva/ofensiva para profissionais de cibersegurança. A utilização deste framework em redes ou sistemas sem o consentimento explícito e formalizado dos proprietários é estritamente proibida e ilegal.
 
 ## 📌 Status e Operação
 * **Modelo:** Enterprise Managed Platform.
