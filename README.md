@@ -74,7 +74,7 @@ A abordagem do GHOST é cirúrgica. Nossa prioridade absoluta é a integridade f
 A verdadeira disrupção do GHOST é a sua capacidade de pensar de forma não linear. Vulnerabilidades isoladas raramente causam grandes impactos; são as cadeias de confiança que derrubam organizações.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/ffae044d-09f7-4ca5-b412-c7dde8c7f0dd" alt="Mapeamento Cognitivo Neo4j" width="100%">
+  <img src="images/neo4j_ghost.protocol.png" alt="Mapeamento Cognitivo Neo4j" width="100%">
   <br>
   <sub><em>Fig 3. Core Neural em Ação: O motor de grafos orquestrando a inteligência coletada, evidenciando a cadeia de suprimentos de falhas, pontos cegos e rotas críticas na infraestrutura.</em></sub>
 </div>
