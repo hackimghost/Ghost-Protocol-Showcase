@@ -11,7 +11,7 @@ O **GHOST** é um framework cognitivo de validação ofensiva e emulação de ad
 ---
 
 <div align="center">
-  <img src="ghost_mobile.png" alt="GHOST — Ecossistema de Resiliência Cibernética" width="100%">
+  <img src="https://raw.githubusercontent.com/hackimghost/Ghost-Protocol-Showcase/main/ghost_mobile.png" alt="GHOST — Ecossistema de Resiliência Cibernética" width="100%">
   <br><br>
   <a href="https://github.com/hackimghost/Ghost-Protocol-Showcase">
     <img src="https://img.shields.io/badge/Categoria-Validação_de_Resiliência-blue?style=for-the-badge&logo=shield" alt="Categoria">
@@ -42,7 +42,7 @@ A arquitetura do GHOST foi desenhada sob os pilares da furtividade e descentrali
 O framework testa a robustez das soluções de Endpoint Detection and Response (EDR) estabilizando processos legítimos. O motor **GhostMutator** avalia a resiliência do ambiente através do encapsulamento dinâmico de estruturas (JSON) ofuscadas, medindo o tempo de resposta das defesas locais contra execuções em memória.
 
 <div align="center">
-  <img src="ghost_control_plane.jpg" alt="Ghost Fortress e GhostMutator em Operação" width="100%">
+  <img src="https://raw.githubusercontent.com/hackimghost/Ghost-Protocol-Showcase/main/ghost_control_plane.jpg" alt="Ghost Fortress e GhostMutator em Operação" width="100%">
   <br>
   <sub><em>Fig 1. Ghost Fortress: Estabelecimento de túneis blindados e orquestração do motor de mutação em tempo real para testes de evasão.</em></sub>
 </div>
@@ -57,7 +57,7 @@ O framework testa a robustez das soluções de Endpoint Detection and Response (
 A abordagem do GHOST é cirúrgica. Nossa prioridade absoluta é a integridade física e lógica do ambiente auditado, gerando telemetria valiosa sem disrupção operacional.
 
 <div align="center">
-  <img src="ghost_arch_layers.jpg" alt="Arquitetura de Orquestração Autônoma" width="100%">
+  <img src="https://raw.githubusercontent.com/hackimghost/Ghost-Protocol-Showcase/main/ghost_arch_layers.jpg" alt="Arquitetura de Orquestração Autônoma" width="100%">
   <br>
   <sub><em>Fig 2. Fluxo de Orquestração: Integração de camadas de validação focadas em inteligência tática.</em></sub>
 </div>
@@ -74,7 +74,7 @@ A abordagem do GHOST é cirúrgica. Nossa prioridade absoluta é a integridade f
 A verdadeira disrupção do GHOST é a sua capacidade de pensar de forma não linear. Vulnerabilidades isoladas raramente causam grandes impactos; são as cadeias de confiança que derrubam organizações.
 
 <div align="center">
-  <img src="Neo4j_jpg.png" alt="Mapeamento Cognitivo Neo4j Sanitizado" width="100%">
+  <img src="https://raw.githubusercontent.com/hackimghost/Ghost-Protocol-Showcase/main/Neo4j_jpg.png" alt="Mapeamento Cognitivo Neo4j Sanitizado" width="100%">
   <br>
   <sub><em>Fig 3. Core Neural em Ação: O motor de grafos orquestrando a inteligência coletada, evidenciando a cadeia de suprimentos de falhas, pontos cegos e rotas críticas na infraestrutura.</em></sub>
 </div>
@@ -83,7 +83,7 @@ A verdadeira disrupção do GHOST é a sua capacidade de pensar de forma não li
 O GHOST consome a telemetria do ambiente e a processa através de um banco de dados de grafos. Em vez de emitir alertas unitários, a IA orquestradora calcula "caminhos de menor resistência", revelando como um invasor utilizaria uma conexão legítima esquecida para contornar bilhões de dólares em investimentos de segurança.
 
 <div align="center">
-  <img src="ghost_neural_core.jpg" alt="Modelagem de Risco Neural" width="100%">
+  <img src="https://raw.githubusercontent.com/hackimghost/Ghost-Protocol-Showcase/main/ghost_neural_core.jpg" alt="Modelagem de Risco Neural" width="100%">
   <br>
   <sub><em>Fig 4. Correlação Topológica: Processamento neural focado na identificação do ponto único de falha (Single Point of Failure).</em></sub>
 </div>
@@ -91,7 +91,7 @@ O GHOST consome a telemetria do ambiente e a processa através de um banco de da
 ---
 
 <div align="center">
-  <img src="dashbordShowcase1.png" alt="Painel de Controle Estratégico" width="100%">
+  <img src="https://raw.githubusercontent.com/hackimghost/Ghost-Protocol-Showcase/main/dashbordShowcase1.png" alt="Painel de Controle Estratégico" width="100%">
   <br>
   <sub><em>Fig 5. Visão Executiva: Transformando dados técnicos complexos em métricas de risco acionáveis.</em></sub>
 </div>
