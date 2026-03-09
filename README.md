@@ -10,9 +10,9 @@ O **GHOST** é um framework cognitivo de validação ofensiva e emulação de ad
 
 ---
 
-![GHOST — Ecossistema de Resiliência Cibernética](ghost_mobile.png)
-
 <div align="center">
+  <img src="https://raw.githubusercontent.com/hackimghost/Ghost-Protocol-Showcase/main/images/ghost_mobile.png" alt="GHOST — Ecossistema de Resiliência Cibernética" width="100%">
+  <br><br>
   <a href="https://github.com/hackimghost/Ghost-Protocol-Showcase">
     <img src="https://img.shields.io/badge/Categoria-Validação_de_Resiliência-blue?style=for-the-badge&logo=shield" alt="Categoria">
   </a>
@@ -41,8 +41,11 @@ A arquitetura do GHOST foi desenhada sob os pilares da furtividade e descentrali
 ### 2. Engine de Mutação Heurística
 O framework testa a robustez das soluções de Endpoint Detection and Response (EDR) estabilizando processos legítimos. O motor **GhostMutator** avalia a resiliência do ambiente através do encapsulamento dinâmico de estruturas (JSON) ofuscadas, medindo o tempo de resposta das defesas locais contra execuções em memória.
 
-![Ghost Fortress e GhostMutator em Operação](ghost_control_plane.jpg)
-*Fig 1. Ghost Fortress: Estabelecimento de túneis blindados e orquestração do motor de mutação em tempo real para testes de evasão.*
+<div align="center">
+  <img src="https://raw.githubusercontent.com/hackimghost/Ghost-Protocol-Showcase/main/images/ghost_control_plane.jpg" alt="Ghost Fortress e GhostMutator em Operação" width="100%">
+  <br>
+  <sub><em>Fig 1. Ghost Fortress: Estabelecimento de túneis blindados e orquestração do motor de mutação em tempo real para testes de evasão.</em></sub>
+</div>
 
 ### 3. Extração e Estruturação de Inteligência
 - **Catalogação Autônoma:** Os artefatos coletados na infraestrutura auditada são processados por um módulo central, que estrutura os dados topológicos em cofres isolados para modelagem preditiva e análise de impacto.
@@ -53,8 +56,11 @@ O framework testa a robustez das soluções de Endpoint Detection and Response (
 
 A abordagem do GHOST é cirúrgica. Nossa prioridade absoluta é a integridade física e lógica do ambiente auditado, gerando telemetria valiosa sem disrupção operacional.
 
-![Arquitetura de Orquestração Autônoma](ghost_arch_layers.jpg)
-*Fig 2. Fluxo de Orquestração: Integração de camadas de validação focadas em inteligência tática.*
+<div align="center">
+  <img src="https://raw.githubusercontent.com/hackimghost/Ghost-Protocol-Showcase/main/images/ghost_arch_layers.jpg" alt="Arquitetura de Orquestração Autônoma" width="100%">
+  <br>
+  <sub><em>Fig 2. Fluxo de Orquestração: Integração de camadas de validação focadas em inteligência tática.</em></sub>
+</div>
 
 ### Camadas de Engajamento
 * **Avaliação de Superfície Externa:** Mapeamento profundo de ativos expostos, sombras digitais (Shadow IT) e vetores de entrada de infraestrutura legada.
@@ -67,19 +73,28 @@ A abordagem do GHOST é cirúrgica. Nossa prioridade absoluta é a integridade f
 
 A verdadeira disrupção do GHOST é a sua capacidade de pensar de forma não linear. Vulnerabilidades isoladas raramente causam grandes impactos; são as cadeias de confiança que derrubam organizações.
 
-![Mapeamento Cognitivo Neo4j Sanitizado](Neo4j_jpg.png)
-*Fig 3. Core Neural em Ação: O motor de grafos orquestrando a inteligência coletada, evidenciando a cadeia de suprimentos de falhas, pontos cegos e rotas críticas na infraestrutura.*
+<div align="center">
+  <img src="https://raw.githubusercontent.com/hackimghost/Ghost-Protocol-Showcase/main/images/Neo4j%20.jpg%20.png" alt="Mapeamento Cognitivo Neo4j Sanitizado" width="100%">
+  <br>
+  <sub><em>Fig 3. Core Neural em Ação: O motor de grafos orquestrando a inteligência coletada, evidenciando a cadeia de suprimentos de falhas, pontos cegos e rotas críticas na infraestrutura.</em></sub>
+</div>
 
 ### Inteligência de Grafos 
 O GHOST consome a telemetria do ambiente e a processa através de um banco de dados de grafos. Em vez de emitir alertas unitários, a IA orquestradora calcula "caminhos de menor resistência", revelando como um invasor utilizaria uma conexão legítima esquecida para contornar bilhões de dólares em investimentos de segurança.
 
-![Modelagem de Risco Neural](ghost_neural_core.jpg)
-*Fig 4. Correlação Topológica: Processamento neural focado na identificação do ponto único de falha (Single Point of Failure).*
+<div align="center">
+  <img src="https://raw.githubusercontent.com/hackimghost/Ghost-Protocol-Showcase/main/images/ghost_neural_core.jpg" alt="Modelagem de Risco Neural" width="100%">
+  <br>
+  <sub><em>Fig 4. Correlação Topológica: Processamento neural focado na identificação do ponto único de falha (Single Point of Failure).</em></sub>
+</div>
 
 ---
 
-![Painel de Controle Estratégico](dashbordShowcase1.png)
-*Fig 5. Visão Executiva: Transformando dados técnicos complexos em métricas de risco acionáveis.*
+<div align="center">
+  <img src="https://raw.githubusercontent.com/hackimghost/Ghost-Protocol-Showcase/main/images/dashbordShowcase1.png" alt="Painel de Controle Estratégico" width="100%">
+  <br>
+  <sub><em>Fig 5. Visão Executiva: Transformando dados técnicos complexos em métricas de risco acionáveis.</em></sub>
+</div>
 
 ---
 
@@ -107,6 +122,7 @@ O desenvolvimento deste framework possui finalidade estritamente orientada à pe
 ---
 
 <div align="center">
-  <h3>"Segurança não é a ilusão de não possuir falhas, mas a matemática de gerenciar o risco de forma implacável."</h3>
+  <h3>"Segurança não é a ilusão de não possuir falhas, mas a matemática
+ de gerenciar o risco de forma implacável."</h3>
   <sub>© Ghost Security Systems. Todos os direitos reservados.</sub>
 </div>
