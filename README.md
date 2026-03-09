@@ -11,7 +11,7 @@ O **GHOST** é um framework cognitivo de validação ofensiva e emulação de ad
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/hackimghost/Ghost-Protocol-Showcase/main/images/ghost_mobile.png" alt="GHOST — Ecossistema de Resiliência Cibernética" width="100%">
+  <img src="images/ghost_mobile.png" alt="GHOST — Ecossistema de Resiliência Cibernética" width="100%">
   <br><br>
   <a href="https://github.com/hackimghost/Ghost-Protocol-Showcase">
     <img src="https://img.shields.io/badge/Categoria-Validação_de_Resiliência-blue?style=for-the-badge&logo=shield" alt="Categoria">
@@ -42,13 +42,13 @@ A arquitetura do GHOST foi desenhada sob os pilares da furtividade e descentrali
 O framework testa a robustez das soluções de Endpoint Detection and Response (EDR) estabilizando processos legítimos. O motor **GhostMutator** avalia a resiliência do ambiente através do encapsulamento dinâmico de estruturas (JSON) ofuscadas, medindo o tempo de resposta das defesas locais contra execuções em memória.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/hackimghost/Ghost-Protocol-Showcase/main/images/ghost_control_plane.jpg" alt="Ghost Fortress e GhostMutator em Operação" width="100%">
+  <img src="caminho_para_sua_imagem_1000436063.png" alt="Ghost Fortress e GhostMutator em Operação" width="100%">
   <br>
   <sub><em>Fig 1. Ghost Fortress: Estabelecimento de túneis blindados e orquestração do motor de mutação em tempo real para testes de evasão.</em></sub>
 </div>
 
 ### 3. Extração e Estruturação de Inteligência
-- **Catalogação Autônoma:** Os artefatos coletados na infraestrutura auditada são processados por um módulo central, que estrutura os dados topológicos em cofres isolados para modelagem preditiva e análise de impacto.
+- **Catalogação Autônoma:** Os artefatos coletados na infraestrutura auditada são processados por um módulo central, que estrutura os dados topológicos in cofres isolados para modelagem preditiva e análise de impacto.
 
 ---
 
@@ -57,7 +57,7 @@ O framework testa a robustez das soluções de Endpoint Detection and Response (
 A abordagem do GHOST é cirúrgica. Nossa prioridade absoluta é a integridade física e lógica do ambiente auditado, gerando telemetria valiosa sem disrupção operacional.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/hackimghost/Ghost-Protocol-Showcase/main/images/ghost_arch_layers.jpg" alt="Arquitetura de Orquestração Autônoma" width="100%">
+  <img src="images/ghost_arch_layers.jpg" alt="Arquitetura de Orquestração Autônoma" width="100%">
   <br>
   <sub><em>Fig 2. Fluxo de Orquestração: Integração de camadas de validação focadas em inteligência tática.</em></sub>
 </div>
@@ -65,7 +65,7 @@ A abordagem do GHOST é cirúrgica. Nossa prioridade absoluta é a integridade f
 ### Camadas de Engajamento
 * **Avaliação de Superfície Externa:** Mapeamento profundo de ativos expostos, sombras digitais (Shadow IT) e vetores de entrada de infraestrutura legada.
 * **Validação Cloud-Native (K8s):** Teste de resiliência em topologias modernas de orquestração de contêineres, validando políticas de isolamento, permissões de cluster e arquitetura Zero-Trust.
-* **Apresentação Executiva:** Tradução de evidências técnicas brutas em inteligência de decisão para Conselhos e Diretorias (C-Level).
+* **Apresentação Executiva:** Tradução de evidências técnicas brutas in inteligência de decisão para Conselhos e Diretorias (C-Level).
 
 ---
 
@@ -74,16 +74,16 @@ A abordagem do GHOST é cirúrgica. Nossa prioridade absoluta é a integridade f
 A verdadeira disrupção do GHOST é a sua capacidade de pensar de forma não linear. Vulnerabilidades isoladas raramente causam grandes impactos; são as cadeias de confiança que derrubam organizações.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/hackimghost/Ghost-Protocol-Showcase/main/images/Neo4j%20.jpg%20.png" alt="Mapeamento Cognitivo Neo4j Sanitizado" width="100%">
+  <img src="neo4j_ghost.protocol" alt="Mapeamento Cognitivo Neo4j Sanitizado" width="100%">
   <br>
   <sub><em>Fig 3. Core Neural em Ação: O motor de grafos orquestrando a inteligência coletada, evidenciando a cadeia de suprimentos de falhas, pontos cegos e rotas críticas na infraestrutura.</em></sub>
 </div>
 
 ### Inteligência de Grafos 
-O GHOST consome a telemetria do ambiente e a processa através de um banco de dados de grafos. Em vez de emitir alertas unitários, a IA orquestradora calcula "caminhos de menor resistência", revelando como um invasor utilizaria uma conexão legítima esquecida para contornar bilhões de dólares em investimentos de segurança.
+O GHOST consome a telemetria do ambiente e a processa através de um banco de dados de grafos. Em vez de emitir alertas unitários, a IA orquestradora calcula "caminhos de menor resistência", revelando como um invasor utilizaria uma conexão legítima esquecida para contornar bilhões de dólares in investimentos de segurança.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/hackimghost/Ghost-Protocol-Showcase/main/images/ghost_neural_core.jpg" alt="Modelagem de Risco Neural" width="100%">
+  <img src="images/ghost_neural_core.jpg" alt="Modelagem de Risco Neural" width="100%">
   <br>
   <sub><em>Fig 4. Correlação Topológica: Processamento neural focado na identificação do ponto único de falha (Single Point of Failure).</em></sub>
 </div>
@@ -91,11 +91,9 @@ O GHOST consome a telemetria do ambiente e a processa através de um banco de da
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/hackimghost/Ghost-Protocol-Showcase/main/images/dashbordShowcase1.png" alt="Painel de Controle Estratégico" width="100%">
+  <img src="images/dashbordShowcase1.png" alt="Painel de Controle Estratégico" width="100%">
   <br>
-  <sub><em>Fig 5. Visão Executiva: Transformando dados técnicos complexos em métricas de risco acionáveis.</em></sub>
-</div>
-
+  <sub><em>Fig 5. Visão Executiva: Transformando dados técnicos complexos in métricas de risco acionáveis.</em></div>
 ---
 
 ## ⚖️ Modelo de Entrega e Operação
@@ -105,14 +103,14 @@ O GHOST **não** é uma ferramenta de prateleira (SaaS). Ele opera exclusivament
 ### Para quem é esta solução?
 * 🏢 **Infraestruturas Críticas:** Energia, Telecomunicações e Logística.
 * 🏦 **Setor Financeiro:** Ambientes sob extrema regulação.
-* ☁️ **Ecossistemas DevOps:** Estruturas baseadas em microsserviços.
+* ☁️ **Ecossistemas DevOps:** Estruturas baseadas in microsserviços.
 * 🛡️ **Equipes de Defesa (Blue Teams / SOCs):** Validação prática contra ameaças não lineares.
 
 ---
 
 ## ⚠️ Aviso Legal e Ética Profissional
 
-O desenvolvimento deste framework possui finalidade estritamente orientada à pesquisa de segurança ofensiva/defensiva corporativa. A utilização das táticas, arquiteturas e componentes deste projeto em redes, sistemas ou infraestruturas sem o consentimento formal, contratual e explícito dos proprietários dos ativos é estritamente proibida.
+O desenvolvimento deste framework possui finalidade estritamente orientada à pesquisa de segurança ofensiva/defensiva corporativa. A utilização das táticas, arquiteturas e componentes deste projeto in redes, sistemas ou infraestruturas sem o consentimento formal, contratual e explícito dos proprietários dos ativos é estritamente proibida.
 
 ## 📌 Status
 * **Modelo:** Plataforma de Consultoria Gerenciada (Enterprise).
@@ -122,7 +120,6 @@ O desenvolvimento deste framework possui finalidade estritamente orientada à pe
 ---
 
 <div align="center">
-  <h3>"Segurança não é a ilusão de não possuir falhas, mas a matemática
- de gerenciar o risco de forma implacável."</h3>
+  <h3>"Segurança não é a ilusão de não possuir falhas, mas a matemática de gerenciar o risco de forma implacável."</h3>
   <sub>© Ghost Security Systems. Todos os direitos reservados.</sub>
 </div>
