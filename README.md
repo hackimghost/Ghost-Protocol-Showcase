@@ -2,6 +2,11 @@
 
 O **GHOST** é um framework cognitivo de validação ofensiva e emulação de adversários, projetado para testar a resiliência de infraestruturas críticas e ecossistemas corporativos complexos. Operando muito além das avaliações de vulnerabilidade tradicionais, o motor simula o comportamento, a adaptabilidade e a furtividade das Ameaças Avançadas Persistentes (APTs) modernas.
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+</p>
+
 ## 🏴‍☠️ Manifesto Operacional: A Doutrina Power Hat
 
 > "A Doutrina Power Hat transcende a ilusão da conformidade regulatória (Compliance). Acreditamos que a verdadeira resiliência cibernética não se forja em planilhas ou em auditorias estáticas e previsíveis, mas na exposição controlada à assimetria do mundo real. Nosso compromisso é iluminar os pontos cegos estruturais antes que adversários reais o façam. Preparar uma organização para o cenário atual exige testá-la sob um ecossistema de estresse contínuo, onde a inteligência não tem amarras comerciais e a evolução tática é a única métrica de defesa válida."
