@@ -128,5 +128,5 @@ O desenvolvimento deste framework possui finalidade estritamente orientada à pe
 
 <div align="center">
   <h3>"Segurança não é a ilusão de não possuir falhas, mas a matemática de gerenciar o risco de forma implacável."</h3>
-  <sub>© Ghost Security Systems. Todos os direitos reservados.</sub>
+  <sub>© Phantom Security Systems. Todos os direitos reservados.</sub>
 </div>
